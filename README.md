@@ -1,9 +1,9 @@
 SmartyPlugins
 =============
 
-![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
+SmartyPlugins is a repository for unofficial/user-contributed Smarty plugins. 
 
-SmartyPlugins is a repository for unofficial Smarty plugins. 
+![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
 
 It was created to provide a common room for all Smarty plugins out there in the wild. Each plugin included should be fully documented and, where possible, accompanied by a test suite to ensure code quality and stability.
 
@@ -15,19 +15,20 @@ Requirements
 ------------
 
 * PHP 5.3.2 and up.
-* Smarty 3
+* [Smarty 3](http://www.smarty.net)
 
 How to contribute
 -----------------
 
 Want to see your plugin or extension included in this library? 
 
-Then, fork this repository, add your extension or plugin, and request a pull. That's it!
+* GitHub users: Fork this repository, add your extension or plugin, and request a pull.
+* Others: Drop me an email with an attachement containing the plugin/extension and any other relevant file.
 
 Documentation
 -------------
 
-For details about the Extensions architecture please check the [documentation file provided in the SmartyBundle project](https://github.com/noiselabs/SmartyBundle/blob/master/Resources/doc/index.rst) and scroll to the Extensions section.
+For details about the Extensions architecture please check the [documentation file](https://github.com/noiselabs/SmartyBundle/blob/master/Resources/doc/index.rst) provided in the SmartyBundle project and scroll to the Extensions section.
 
 License
 -------
