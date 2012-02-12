@@ -1,0 +1,6 @@
+*~
+*.kate-swp
+phpunit.xml
+vendor/smarty
+vendor/symfony
+run-me-before-release.sh

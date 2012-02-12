@@ -1,0 +1,23 @@
+{
+    "name": "noiselabs/smarty-plugins",
+    "description": "Smarty Plugins Repository",
+    "keywords": ["smarty", "templating", "noiselabs"],
+    "homepage": "https://github.com/noiselabs/SmartyPlugins",
+    "type": "library",
+    "version": "0.1.0",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Vítor Brandão",
+            "email": "noisebleed@noiselabs.org",
+            "homepage": "http://blog.noiselabs.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "NoiseLabs\\SmartyPlugins": "src/" }
+    },
+    "target-dir": "NoiseLabs/SmartyPlugins"
+}
