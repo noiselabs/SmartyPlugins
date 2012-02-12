@@ -27,7 +27,7 @@
 * @since       0.1.0
 */
 
-namespace NoiseLabs\SmartyPlugins\Package\Filter;
+namespace NoiseLabs\SmartyPlugins\Core\Filter;
 
 /**
  * Prefilters are used to process the source of the template immediately before

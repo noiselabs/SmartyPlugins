@@ -27,7 +27,7 @@
 * @since       0.1.0
 */
 
-namespace NoiseLabs\SmartyPlugins\Package\Filter;
+namespace NoiseLabs\SmartyPlugins\Core\Filter;
 
 use NoiseLabs\SmartyPlugins\Package\PackageInterface;
 

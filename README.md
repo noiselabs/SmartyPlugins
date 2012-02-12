@@ -1,4 +1,4 @@
-SmartyPlugins ![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
+SmartyPlugins
 =============
 
 SmartyPlugins is a repository for unofficial/user-contributed Smarty plugins. 
@@ -18,10 +18,10 @@ Requirements
 How to contribute
 -----------------
 
-Want to see your plugin or extension included in this library? 
+Want to see your plugin or package included in this library?
 
-* GitHub users: Fork this repository, add your extension or plugin, and request a pull.
-* Others: Drop me an [email](mailto:noisebleed@noiselabs.org) with an attachement containing the plugin/extension and any other relevant file. You may throw a link to those files too if available online.
+* GitHub users: Fork this repository, add your package or plugin, and request a pull.
+* Others: Drop me an [email](mailto:noisebleed@noiselabs.org) with an attachement containing the plugin/package and any other relevant file. You may throw a link to those files too if available online.
 
 Documentation
 -------------

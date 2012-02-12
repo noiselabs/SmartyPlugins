@@ -27,7 +27,7 @@
 * @since       0.1.0
 */
 
-namespace NoiseLabs\SmartyPlugins\Package\Filter;
+namespace NoiseLabs\SmartyPlugins\Core\Filter;
 
 /**
  * Output filter plugins operate on a template's output, after the template is

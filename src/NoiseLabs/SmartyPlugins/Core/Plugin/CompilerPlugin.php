@@ -27,7 +27,7 @@
  * @since       0.1.0
  */
 
-namespace NoiseLabs\SmartyPlugins\Package\Plugin;
+namespace NoiseLabs\SmartyPlugins\Core\Plugin;
 
 /**
  * See {@link http://www.smarty.net/docs/en/plugins.functions.tpl}.

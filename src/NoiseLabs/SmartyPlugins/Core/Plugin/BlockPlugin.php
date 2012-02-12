@@ -27,7 +27,7 @@
  * @since       0.1.0
  */
 
-namespace NoiseLabs\SmartyPlugins\Package\Plugin;
+namespace NoiseLabs\SmartyPlugins\Core\Plugin;
 
 /**
  * Block functions are functions of the form: {func} .. {/func}. In other

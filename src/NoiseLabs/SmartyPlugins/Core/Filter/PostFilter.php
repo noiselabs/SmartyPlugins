@@ -27,7 +27,7 @@
 * @since       0.1.0
 */
 
-namespace NoiseLabs\SmartyPlugins\Package\Filter;
+namespace NoiseLabs\SmartyPlugins\Core\Filter;
 
 /**
  * Postfilters are used to process the compiled output of the template (the PHP
