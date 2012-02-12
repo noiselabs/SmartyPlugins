@@ -1,13 +1,11 @@
-SmartyPlugins
+SmartyPlugins ![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
 =============
 
 SmartyPlugins is a repository for unofficial/user-contributed Smarty plugins. 
 
-![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
-
 It was created to provide a common room for all Smarty plugins out there in the wild. Each plugin included should be fully documented and, where possible, accompanied by a test suite to ensure code quality and stability.
 
-This project also includes a new architecture, based on OO paradigm, called **Extensions**. An Extension is a PHP class that groups several related `plugins` and `filters`, meant to deliver a common feature like translations or a Google Maps API for instance.
+This project also includes a new architecture, based on OO paradigm, called **Packages**. A Package is a PHP class that groups several related `plugins` and `filters`, meant to deliver a common feature like translations or a Google Maps API for instance.
 
 [![Build Status](https://secure.travis-ci.org/noiselabs/SmartyPlugins.png)](http://travis-ci.org/noiselabs/SmartyPlugins)
 
@@ -23,12 +21,12 @@ How to contribute
 Want to see your plugin or extension included in this library? 
 
 * GitHub users: Fork this repository, add your extension or plugin, and request a pull.
-* Others: Drop me an email with an attachement containing the plugin/extension and any other relevant file.
+* Others: Drop me an [email](mailto:noisebleed@noiselabs.org) with an attachement containing the plugin/extension and any other relevant file. You may throw a link to those files too if available online.
 
 Documentation
 -------------
 
-For details about the Extensions architecture please check the [documentation file](https://github.com/noiselabs/SmartyBundle/blob/master/Resources/doc/index.rst) provided in the SmartyBundle project and scroll to the Extensions section.
+*Work in progress*
 
 License
 -------
