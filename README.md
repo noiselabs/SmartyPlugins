@@ -1,13 +1,15 @@
 SmartyPlugins
 =============
 
+![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
+
 SmartyPlugins is a repository for unofficial Smarty plugins. 
 
-It was created to provided a common room for all Smarty plugins out there in the wild. Each plugin included should be fully documented and, where possible, accompanied by a test suite to ensure code quality and stability.
+It was created to provide a common room for all Smarty plugins out there in the wild. Each plugin included should be fully documented and, where possible, accompanied by a test suite to ensure code quality and stability.
 
 This project also includes a new architecture, based on OO paradigm, called **Extensions**. An Extension is a PHP class that groups several related `plugins` and `filters`, meant to deliver a common feature like translations or a Google Maps API for instance.
 
-![Smarty.net](http://www.smarty.net/images/icons/smarty-80x15.png)
+[![Build Status](https://secure.travis-ci.org/noiselabs/SmartyPlugins.png)](http://travis-ci.org/noiselabs/SmartyPlugins)
 
 Requirements
 ------------
