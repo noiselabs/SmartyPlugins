@@ -62,9 +62,9 @@ interface PackageInterface
     function getGlobals();
 
     /**
-     * Returns the name of the extension.
+     * Returns the name of the package.
      *
-     * @return string The extension name
+     * @return string The package name
      */
     function getName();
 }

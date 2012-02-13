@@ -50,23 +50,23 @@ abstract class Plugin implements PluginInterface
     'compiler', 'prefilter', 'postfilter', 'outputfilter', 'resource',
     'insert');
     protected $name;
-    protected $extension;
+    protected $package;
     protected $method;
 
     /**
      * Constructor.
      *
      * @param string             $name      The plugin name
-     * @param PackageInterface $extension A PackageInterface instance
+     * @param PackageInterface $package A PackageInterface instance
      * @param string             $method    Method name
      *
      * @since  0.1.0
      * @author Vítor Brandão <noisebleed@noiselabs.org>
      */
-    public function __construct($name, PackageInterface $extension, $method)
+    public function __construct($name, PackageInterface $package, $method)
     {
         $this->name = $name;
-        $this->extension = $extension;
+        $this->package = $package;
         $this->method = $method;
     }
 
@@ -98,7 +98,7 @@ abstract class Plugin implements PluginInterface
      */
     public function getCallback()
     {
-        return array($this->extension, $this->method);
+        return array($this->package, $this->method);
     }
 
     /**

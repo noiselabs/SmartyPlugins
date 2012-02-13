@@ -23,10 +23,10 @@ Want to see your plugin or package included in this library?
 * GitHub users: Fork this repository, add your package or plugin, and request a pull.
 * Others: Drop me an [email](mailto:noisebleed@noiselabs.org) with an attachement containing the plugin/package and any other relevant file. You may throw a link to those files too if available online.
 
-Documentation
--------------
+What is a Package?
+------------------
 
-*Work in progress*
+*Coming soon*
 
 License
 -------

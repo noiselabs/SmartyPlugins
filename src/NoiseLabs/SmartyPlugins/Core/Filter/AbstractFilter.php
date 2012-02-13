@@ -47,18 +47,18 @@ abstract class Filter implements FilterInterface
      * @var array
      */
     protected static $types = array('pre', 'post', 'output', 'variable');
-    protected $extension;
+    protected $package;
     protected $method;
 
-    public function __construct(PackageInterface $extension, $method)
+    public function __construct(PackageInterface $package, $method)
     {
-        $this->extension = $extension;
+        $this->package = $package;
         $this->method = $method;
     }
 
     public function getCallback()
     {
-        return array($this->extension, $this->method);
+        return array($this->package, $this->method);
     }
 
     public function validateType()
