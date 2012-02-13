@@ -38,14 +38,14 @@ namespace NoiseLabs\SmartyPlugins\Package;
 abstract class AbstractPackage implements PackageInterface
 {
     /**
-     * Returns a list of  to add to the existing list.
+     * Returns a list of Plugins to add to the existing list.
      *
      * @return array An array of 
      *
      * @since  0.1.0
      * @author Vítor Brandão <noisebleed@noiselabs.org>
      */
-    public function get()
+    public function getPlugins()
     {
         return array();
     }

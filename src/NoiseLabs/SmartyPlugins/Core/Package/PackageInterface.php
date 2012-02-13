@@ -24,30 +24,34 @@
  * @copyright   (C) 2012 Vítor Brandão <noisebleed@noiselabs.org>
  * @license     http://www.gnu.org/licenses/lgpl-3.0-standalone.html LGPL-3
  * @link        http://www.noiselabs.org
- * @since       0.1.0
  */
 
 namespace NoiseLabs\SmartyPlugins\Package;
 
+/**
+ * PackageInterface.
+ *
+ * @author Vítor Brandão <noisebleed@noiselabs.org>
+ *
+ * @api
+ */
 interface PackageInterface
 {
     /**
-    * Returns a list of  to add to the existing list.
+    * Returns a list of Plugins to add to the existing list.
     *
-    * @return array An array of 
+    * @return array An array of Plugins
     *
-    * @since  0.1.0
-    * @author Vítor Brandão <noisebleed@noiselabs.org>
+    * @api
     */
-    function get();
+    function getPlugins();
 
     /**
      * Returns a list of Filters to add to the existing list.
      *
      * @return array An array of Filters
      *
-     * @since  0.1.0
-     * @author Vítor Brandão <noisebleed@noiselabs.org>
+     * @api
      */
     function getFilters();
 
@@ -56,15 +60,36 @@ interface PackageInterface
      *
      * @return array An array of Globals
      *
-     * @since  0.1.0
-     * @author Vítor Brandão <noisebleed@noiselabs.org>
+     * @api
      */
     function getGlobals();
 
     /**
-     * Returns the name of the package.
+     * Returns the Package name.
      *
-     * @return string The package name
+     * @return string The Package name
+     *
+     * @api
      */
     function getName();
+
+    /**
+     * Gets the Package namespace.
+     *
+     * @return string The Package namespace
+     *
+     * @api
+     */
+    function getNamespace();
+
+    /**
+     * Gets the Package directory path.
+     *
+     * The path should always be returned as a Unix path (with /).
+     *
+     * @return string The Package absolute path
+     *
+     * @api
+     */
+    function getPath();
 }
